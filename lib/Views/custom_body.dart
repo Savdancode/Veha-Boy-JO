@@ -27,7 +27,7 @@ class _CustomBodyState extends State<CustomBody> {
               child: ListBody(
                 children: const <Widget>[
                   Text(
-                    'អារន្ទះបាញ់វេហា',
+                    'Happy Birthday To You 🎂🎉​Ah ngob',
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
@@ -66,8 +66,8 @@ class _CustomBodyState extends State<CustomBody> {
           itemCount: 30,
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
-            mainAxisSpacing: 15,
-            crossAxisSpacing: 15,
+            mainAxisSpacing: 10,
+            crossAxisSpacing: 10,
           ),
           itemBuilder: (BuildContext context, int index) {
             return Card(
@@ -93,7 +93,7 @@ class _CustomBodyState extends State<CustomBody> {
                       const Text(
                         '   Hooppy',
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -109,7 +109,7 @@ class _CustomBodyState extends State<CustomBody> {
                           child: const Text(
                             'Add to Cart',
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
